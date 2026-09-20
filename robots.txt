@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://us-wpm-typing-speed-test.enjoy-onepage.com/sitemap.xml
