@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
-  <title>Typing Speed Test (WPM) | 60-Second Typing Accuracy Challenge</title>
+  <title>Typing Speed Test (WPM) | 60-Second Accuracy Challenge</title>
   <link>https://us-wpm-typing-speed-test.enjoy-onepage.com/</link>
-  <description>Test your typing speed in Words Per Minute (WPM) and accuracy percentage with curated English quotes and programming snippets.</description>
+  <description>Take a free 60-second typing test and see your words per minute, raw speed and accuracy. Choose 30 seconds, 1 or 2 minutes and get new text any time.</description>
   <language>en-us</language>
   <atom:link href="https://us-wpm-typing-speed-test.enjoy-onepage.com/rss.xml" rel="self" type="application/rss+xml" />
-  <lastBuildDate>Tue, 29 Sep 2026 06:03:24 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 29 Sep 2026 23:08:30 +0000</lastBuildDate>
   <item>
-    <title>Disclaimer | Typing Speed Test (WPM) | 60-Second Typing Accuracy Challenge</title>
+    <title>Disclaimer | Typing Speed Test (WPM)</title>
     <link>https://us-wpm-typing-speed-test.enjoy-onepage.com/disclaimer.html</link>
     <guid isPermaLink="true">https://us-wpm-typing-speed-test.enjoy-onepage.com/disclaimer.html</guid>
-    <description>Disclaimer | Typing Speed Test (WPM) | 60-Second Typing Accuracy Challenge</description>
-    <pubDate>Sun, 20 Sep 2026 22:15:55 +0900</pubDate>
+    <description>Disclaimer for the Typing Speed Test (WPM).</description>
+    <pubDate>Tue, 29 Sep 2026 23:08:30 +0000</pubDate>
   </item>
   <item>
-    <title>Terms of Service | Typing Speed Test (WPM) | 60-Second Typing Accuracy Challenge</title>
-    <link>https://us-wpm-typing-speed-test.enjoy-onepage.com/terms.html</link>
-    <guid isPermaLink="true">https://us-wpm-typing-speed-test.enjoy-onepage.com/terms.html</guid>
-    <description>Terms of Service | Typing Speed Test (WPM) | 60-Second Typing Accuracy Challenge</description>
-    <pubDate>Sun, 20 Sep 2026 22:15:55 +0900</pubDate>
-  </item>
-  <item>
-    <title>Privacy Policy | Typing Speed Test (WPM) | 60-Second Typing Accuracy Challenge</title>
+    <title>Privacy Policy | Typing Speed Test (WPM)</title>
     <link>https://us-wpm-typing-speed-test.enjoy-onepage.com/privacy.html</link>
     <guid isPermaLink="true">https://us-wpm-typing-speed-test.enjoy-onepage.com/privacy.html</guid>
-    <description>Privacy Policy | Typing Speed Test (WPM) | 60-Second Typing Accuracy Challenge</description>
-    <pubDate>Sun, 20 Sep 2026 22:15:55 +0900</pubDate>
+    <description>Privacy Policy for the Typing Speed Test (WPM).</description>
+    <pubDate>Tue, 29 Sep 2026 23:08:30 +0000</pubDate>
+  </item>
+  <item>
+    <title>Terms of Service | Typing Speed Test (WPM)</title>
+    <link>https://us-wpm-typing-speed-test.enjoy-onepage.com/terms.html</link>
+    <guid isPermaLink="true">https://us-wpm-typing-speed-test.enjoy-onepage.com/terms.html</guid>
+    <description>Terms of Service for the Typing Speed Test (WPM).</description>
+    <pubDate>Tue, 29 Sep 2026 23:08:30 +0000</pubDate>
   </item>
 </channel>
 </rss>

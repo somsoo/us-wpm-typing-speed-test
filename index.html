@@ -1,308 +1,445 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link rel="icon" href="/favicon.ico">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="robots" content="noindex, nofollow">
-    <title>Typing Speed Test (WPM) | 60-Second Accuracy Challenge</title>
-    <meta name="description" content="Test your typing speed in Words Per Minute (WPM) and accuracy percentage with curated English quotes and programming snippets.">
-    <link rel="canonical" href="https://us-wpm-typing-speed-test.enjoy-onepage.com/">
-
-    <!-- Open Graph -->
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="Typing Speed Test (WPM) | 60-Second Accuracy Challenge">
-    <meta property="og:description" content="Test your typing speed in Words Per Minute (WPM) and accuracy percentage with curated English quotes and programming snippets.">
-    <meta property="og:url" content="https://us-wpm-typing-speed-test.enjoy-onepage.com/">
-    <meta property="og:site_name" content="60-Second Typing Speed Test">
-    <meta property="og:image" content="https://us-wpm-typing-speed-test.enjoy-onepage.com/og-image.png">
-
-    <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Typing Speed Test (WPM) | 60-Second Accuracy Challenge">
-    <meta name="twitter:description" content="Test your typing speed in Words Per Minute (WPM) and accuracy percentage with curated English quotes and programming snippets.">
-    <meta name="twitter:image" content="https://us-wpm-typing-speed-test.enjoy-onepage.com/og-image.png">
-
-    <!-- Schema.org WebApplication -->
-    <script type="application/ld+json">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Typing Speed Test (WPM) | 60-Second Accuracy Challenge</title>
+<meta name="description" content="Take a free 60-second typing test and see your words per minute, raw speed and accuracy. Choose 30 seconds, 1 or 2 minutes and get new text any time.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://us-wpm-typing-speed-test.enjoy-onepage.com/">
+<meta name="theme-color" content="#4338ca">
+<link rel="icon" href="/favicon.ico">
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Typing Speed Test (WPM)">
+<meta property="og:title" content="Typing Speed Test (WPM) | 60-Second Accuracy Challenge">
+<meta property="og:description" content="Take a free 60-second typing test and see your words per minute, raw speed and accuracy. Choose 30 seconds, 1 or 2 minutes and get new text any time.">
+<meta property="og:url" content="https://us-wpm-typing-speed-test.enjoy-onepage.com/">
+<meta property="og:image" content="https://us-wpm-typing-speed-test.enjoy-onepage.com/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Typing Speed Test (WPM) | 60-Second Accuracy Challenge">
+<meta name="twitter:description" content="Take a free 60-second typing test and see your words per minute, raw speed and accuracy. Choose 30 seconds, 1 or 2 minutes and get new text any time.">
+<meta name="twitter:image" content="https://us-wpm-typing-speed-test.enjoy-onepage.com/og-image.png">
+<link rel="alternate" type="application/rss+xml" title="Typing Speed Test RSS" href="https://us-wpm-typing-speed-test.enjoy-onepage.com/rss.xml">
+<link rel="sitemap" type="application/xml" href="https://us-wpm-typing-speed-test.enjoy-onepage.com/sitemap.xml">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
     {
-      "@context": "https://schema.org",
       "@type": "WebApplication",
-      "name": "60-Second Typing Speed Test",
+      "@id": "https://us-wpm-typing-speed-test.enjoy-onepage.com/#webapp",
+      "name": "Typing Speed Test (WPM)",
       "url": "https://us-wpm-typing-speed-test.enjoy-onepage.com/",
-      "description": "Test your typing speed in Words Per Minute (WPM) and accuracy percentage with curated English quotes and programming snippets.",
       "applicationCategory": "EducationalApplication",
       "operatingSystem": "All",
-      "inLanguage": "en-US",
-      "offers": {
-        "@type": "Offer",
-        "price": "0",
-        "priceCurrency": "USD"
-      }
+      "inLanguage": "en",
+      "description": "A free timed typing test. Type a practice text for 30 seconds, 1 minute or 2 minutes and get your words per minute from correct characters, your raw speed from everything typed, and your keystroke accuracy.",
+      "image": "https://us-wpm-typing-speed-test.enjoy-onepage.com/og-image.png",
+      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://us-wpm-typing-speed-test.enjoy-onepage.com/#faq",
+      "mainEntity": [
+        { "@type": "Question", "name": "How is WPM calculated?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Typing tests count one word as five characters, including spaces and punctuation. This test divides the number of characters you typed correctly by 5, then by the minutes of the test. Raw WPM uses every character you typed, right or wrong. For example, 300 correct characters in 60 seconds is 60 WPM." } },
+        { "@type": "Question", "name": "How is accuracy calculated?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Accuracy is the share of your keystrokes that matched the text when you typed them. A mistake still counts against accuracy after you fix it with Backspace, because it was a wrong keystroke. Uncorrected errors are the wrong characters still left when the test ends." } },
+        { "@type": "Question", "name": "Why can't I paste text?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Pasting is turned off during the test so the score shows your own typing. The Enter key does not add a new line either, because the practice text is one long paragraph." } },
+        { "@type": "Question", "name": "Which test length should I choose?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Short tests reward a quick burst of speed, while longer tests show how well you keep your pace. Take the same length a few times and compare; your best score for each length is kept in this browser." } },
+        { "@type": "Question", "name": "Is my typing saved or sent anywhere?",
+          "acceptedAnswer": { "@type": "Answer", "text": "No. What you type stays on this page and is never sent to us. Only your best score and its date for each test length are saved in this browser, and you can clear them at any time." } }
+      ]
     }
-    </script>
-
-    <script src="https://cdn.tailwindcss.com"></script>
-
-    <!-- Layout Shield: Anti 390px Horizontal Overflow -->
-    <style id="layout-shield">
-        html, body {
-            max-width: 100% !important;
-            width: 100% !important;
-            overflow-x: hidden !important;
-        }
-        main, article, .container {
-            max-width: 100% !important;
-            box-sizing: border-box !important;
-        }
-        .manual-ad-box {
-            width: 100%;
-            max-width: 960px;
-            overflow: hidden;
-            margin: 12px auto;
-        }
-        .manual-ad-box ins {
-            max-width: 100% !important;
-            display: block;
-        }
-    </style>
-  <link rel="alternate" type="application/rss+xml" title="Typing Speed Test (WPM) | 60-Second Accuracy Challenge" href="https://us-wpm-typing-speed-test.enjoy-onepage.com/rss.xml">
-  <link rel="sitemap" type="application/xml" href="https://us-wpm-typing-speed-test.enjoy-onepage.com/sitemap.xml">
+  ]
+}
+</script>
+<!-- ADSENSE START: loader -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2228289204702106" crossorigin="anonymous"></script>
+<!-- ADSENSE END: loader -->
+<style>
+:root{--bg:#f5f5fd;--card:#fff;--ink:#1a1b3a;--muted:#5a5c7d;--accent:#4338ca;--line:#e0e1f2;--g:#15803d;--r:#b91c1c}
+*{box-sizing:border-box}
+html,body{margin:0;max-width:100%;overflow-x:hidden}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--ink);line-height:1.55}
+.header{background:linear-gradient(135deg,#312e81,#6366f1);color:#fff;text-align:center;padding:26px 16px 22px}
+.header h1{margin:0;font-size:1.7rem}
+.header-sub{opacity:.92;margin-top:6px;font-size:.95rem}
+.wrap{max-width:1080px;margin:0 auto;padding:12px 14px 8px}
+.grid2{display:grid;grid-template-columns:1fr;gap:14px}
+@media (min-width:1024px){.grid2{grid-template-columns:3fr 2fr;align-items:start}.result{position:sticky;top:12px}}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:14px 18px;margin:14px 0}
+.grid2 .card{margin:0}
+.card h2{font-size:1.15rem;margin:4px 0 10px}
+.card h3{font-size:1rem;margin:14px 0 6px}
+fieldset{border:0;margin:0;padding:0;min-width:0}
+legend{font-weight:600;font-size:.95rem;margin-bottom:4px;padding:0}
+.pills{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.pills label{display:flex;align-items:center;gap:6px;border:1px solid var(--line);border-radius:999px;padding:6px 12px;cursor:pointer;font-size:.95rem}
+.pills label:has(input:checked){border-color:var(--accent);background:#eef2ff;font-weight:700}
+.textbox{position:relative;height:9.6em;overflow-y:auto;margin:12px 0 8px;padding:10px 12px;border:1px solid var(--line);border-radius:12px;background:#fafaff;font-family:ui-monospace,SFMono-Regular,Consolas,monospace;font-size:1.05rem;line-height:1.6;white-space:pre-wrap;overflow-wrap:anywhere;color:#6b6d8f}
+.textbox span.ok{color:var(--g)}
+.textbox span.bad{color:#fff;background:var(--r);border-radius:2px}
+.textbox span.cur{background:#c7d2fe;color:var(--ink);border-radius:2px}
+textarea{width:100%;font:inherit;font-family:ui-monospace,SFMono-Regular,Consolas,monospace;font-size:1.05rem;padding:9px 11px;border:1px solid var(--line);border-radius:10px;background:#fff;color:var(--ink);resize:none}
+textarea[readonly]{background:#f1f2f9}
+.status{display:flex;flex-wrap:wrap;gap:8px 18px;margin:8px 0 0;font-variant-numeric:tabular-nums}
+.status b{font-size:1.15rem}
+.btn{font:inherit;border:1px solid var(--line);background:#fff;color:var(--ink);border-radius:10px;padding:9px 14px;cursor:pointer}
+.btn.sm{padding:4px 9px;font-size:.85rem;border-radius:8px}
+.actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.hint{font-size:.86rem;color:var(--muted);margin:6px 0}
+.kpis{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:6px 0}
+.kpi{border:1px solid var(--line);border-radius:12px;padding:8px 10px}
+.kpi .v{font-size:1.3rem;font-weight:800;font-variant-numeric:tabular-nums;overflow-wrap:anywhere}
+.kpi .k{font-size:.82rem;color:var(--muted)}
+.kpi.big{grid-column:1 / -1;background:#eef2ff;border-color:#c7d2fe}
+.kpi.big .v{font-size:2.2rem}
+.note{font-size:.88rem;background:#fffbeb;border:1px solid #fde68a;border-radius:10px;padding:6px 10px;margin:8px 0}
+.notice{border-color:#fcd34d;background:#fffbeb}
+.faq-item h3{font-size:1rem;margin:12px 0 4px}
+.faq-item p{margin:0;color:#393b5c}
+.ad-box{max-width:1080px;margin:10px auto;padding:0 14px;background:transparent;overflow:hidden;text-align:center}
+.ad-top ins{max-height:90px}
+.footer{text-align:center;font-size:.85rem;color:var(--muted);padding:18px 14px 28px}
+.footer a{color:var(--muted)}
+.toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%);background:#1a1b3a;color:#fff;padding:10px 18px;border-radius:999px;font-size:.9rem;opacity:0;pointer-events:none;transition:opacity .2s;z-index:50;max-width:90vw}
+.toast.show{opacity:1}
+@media (prefers-reduced-motion: reduce){.toast{transition:none}}
+</style>
 </head>
-<body class="bg-slate-50 text-slate-800 antialiased min-h-screen flex flex-col">
+<body>
+<header class="header">
+  <h1>Typing Speed Test (WPM)</h1>
+  <div class="header-sub">Words per minute · raw speed · keystroke accuracy · 30 s, 1 or 2 minutes</div>
+</header>
 
-    <!-- Header -->
-    <header class="bg-white border-b border-slate-200 sticky top-0 z-40">
-        <div class="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
-            <a href="/" class="flex items-center gap-2 font-black text-slate-900 text-lg sm:text-xl tracking-tight">
-                <span class="w-8 h-8 rounded-lg bg-blue-600 text-white flex items-center justify-center text-sm font-black shadow-sm">1P</span>
-                <span>60-Second Typing Speed Test</span>
-            </a>
-            <span class="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-bold bg-blue-50 text-blue-700 border border-blue-200">
-                2026 US Edition
-            </span>
-        </div>
-    </header>
+<!-- ADSENSE START: top -->
+<div class="ad-box ad-top">
+  <ins class="adsbygoogle" style="display:block;height:60px;max-height:90px" data-ad-client="ca-pub-2228289204702106" data-ad-slot="3824727725" data-ad-format="horizontal" data-full-width-responsive="true"></ins>
+  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+</div>
+<!-- ADSENSE END: top -->
 
-    <!-- Main Workspace -->
-    <main class="max-w-6xl mx-auto px-4 py-6 flex-grow w-full">
-        <!-- Title Banner -->
-        <div class="mb-8 text-center max-w-2xl mx-auto">
-            <h1 class="text-2xl sm:text-3xl lg:text-4xl font-black text-slate-900 tracking-tight mb-2">60-Second Typing Speed Test</h1>
-            <p class="text-sm sm:text-base text-slate-600">Test your typing speed in Words Per Minute (WPM) and accuracy percentage with curated English quotes and programming snippets.</p>
+<main class="wrap">
+  <div class="grid2">
+    <section class="card" id="test" aria-labelledby="in-h">
+      <h2 id="in-h">1. Type the text</h2>
+      <fieldset>
+        <legend>Test length</legend>
+        <div class="pills">
+          <label><input type="radio" name="dur" value="30"> 30 seconds</label>
+          <label><input type="radio" name="dur" value="60" checked> 1 minute</label>
+          <label><input type="radio" name="dur" value="120"> 2 minutes</label>
+          <button type="button" class="btn sm" id="btn-new">New text</button>
         </div>
-
-        <!-- 2-Column Gold Standard Layout -->
-        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
-            <!-- Left: Input Form (6 cols) -->
-            <div class="lg:col-span-6 bg-white p-6 sm:p-8 rounded-2xl shadow-sm border border-slate-200">
-                <h2 class="text-base font-bold text-slate-900 mb-4 pb-2 border-b border-slate-100 flex items-center gap-2">
-                    <span class="w-2 h-2 rounded-full bg-blue-600"></span>
-                    <span>Input Parameters</span>
-                </h2>
-                
-        <div class="space-y-4">
-            <div>
-                <label class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-1">Primary Value / Amount ($)</label>
-                <div class="relative">
-                    <span class="absolute left-3 top-3 text-slate-400 font-bold">$</span>
-                    <input type="text" id="primaryVal" value="1,000" class="w-full pl-8 pr-4 py-3 bg-white border border-slate-300 rounded-xl font-semibold text-slate-800 text-base focus:ring-2 focus:ring-blue-500 focus:outline-none" placeholder="1,000">
-                </div>
-            </div>
-            <div>
-                <label class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-1">Secondary Parameter / Multiplier</label>
-                <input type="number" id="secVal" value="12" min="1" class="w-full px-4 py-3 bg-white border border-slate-300 rounded-xl font-semibold text-slate-800 text-base focus:ring-2 focus:ring-blue-500 focus:outline-none">
-            </div>
-            <div>
-                <label class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-1">Calculation Category</label>
-                <select id="calcCat" class="w-full px-4 py-3 bg-white border border-slate-300 rounded-xl font-semibold text-slate-800 text-base focus:ring-2 focus:ring-blue-500 focus:outline-none">
-                    <option value="standard">Standard US Model (Benchmark)</option>
-                    <option value="conservative">Conservative Estimate (-10%)</option>
-                    <option value="growth">Accelerated Target (+15%)</option>
-                </select>
-            </div>
-        </div>
-        
-                <button type="button" onclick="calculate()" class="mt-6 w-full py-3.5 bg-blue-600 hover:bg-blue-700 active:scale-[0.99] text-white font-black text-base rounded-xl shadow-md transition duration-150 cursor-pointer whitespace-nowrap">
-                    Calculate Now
-                </button>
-            </div>
-
-            <!-- Right: Results Card (6 cols sticky) -->
-            <div class="lg:col-span-6 lg:sticky lg:top-24">
-                <div id="resultCard" class="hidden">
-                    
-        <div class="bg-blue-600 text-white p-6 rounded-2xl shadow-md mb-6">
-            <p class="text-xs uppercase font-bold tracking-wider opacity-90 mb-1">Estimated Annual Result</p>
-            <h3 id="resPrimary" class="text-3xl sm:text-4xl font-black tracking-tight">$0</h3>
-            <p class="text-xs mt-2 opacity-80">Calculated under standard US benchmarking formulas</p>
-        </div>
-        <div class="space-y-3 text-sm text-slate-700 bg-white p-5 rounded-2xl border border-slate-200">
-            <div class="flex justify-between pb-2 border-b border-slate-100">
-                <span class="text-slate-500">Monthly Equivalent:</span>
-                <span id="resMonthly" class="font-bold text-slate-900">$0</span>
-            </div>
-            <div class="flex justify-between pt-1">
-                <span class="font-bold text-slate-900">Growth / Variance Index:</span>
-                <span id="resBenchmark" class="font-black text-blue-600">0%</span>
-            </div>
-        </div>
-        
-                    <div class="mt-4 flex gap-3">
-                        <button type="button" onclick="copyResults()" class="flex-1 py-3 bg-slate-900 hover:bg-slate-800 text-white font-bold text-sm rounded-xl transition shadow-sm cursor-pointer whitespace-nowrap">
-                            Copy Results
-                        </button>
-                        <button type="button" onclick="resetForm()" class="px-5 py-3 bg-slate-100 hover:bg-slate-200 text-slate-700 font-bold text-sm rounded-xl transition cursor-pointer whitespace-nowrap">
-                            Reset
-                        </button>
-                    </div>
-                </div>
-                <!-- Initial Placeholder -->
-                <div id="placeholderCard" class="p-8 text-center border-2 border-dashed border-slate-200 rounded-2xl text-slate-400">
-                    <p class="text-sm font-semibold">Enter your inputs on the left and click "Calculate Now" to view full projections.</p>
-                </div>
-            </div>
-        </div>
-
-        <!-- E-E-A-T Editorial FAQ Accordion -->
-        <section class="mt-14 max-w-3xl mx-auto bg-white p-6 sm:p-8 rounded-2xl border border-slate-200">
-            <h2 class="text-lg sm:text-xl font-black text-slate-900 mb-4">Frequently Asked Questions</h2>
-            <div class="space-y-3">
-                
-    <!-- In-Depth Guidebook CTA Banner (4-1-4 Compliance) -->
-    <div class="mt-8 mb-8 p-6 bg-gradient-to-r from-indigo-50 to-blue-50 rounded-2xl border border-indigo-100 flex flex-col sm:flex-row items-center justify-between gap-4">
-      <div>
-        <span class="inline-block px-3 py-1 bg-indigo-600 text-white text-xs font-bold rounded-full mb-2">COMPLETE 2026 HANDBOOK</span>
-        <h3 class="text-lg font-bold text-gray-900">Want to master the statutory details? Read our in-depth guide</h3>
-        <p class="text-xs text-gray-600 mt-1">Explore official calculation formulas, edge-case exemptions, and strategic checklists.</p>
+      </fieldset>
+      <div class="textbox" id="text" aria-label="Text to type"></div>
+      <label class="hint" for="typing">Type here. The timer starts with your first key.</label>
+      <textarea id="typing" rows="3" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" aria-describedby="text"></textarea>
+      <div class="status" aria-live="off">
+        <span>Time left: <b id="time">60</b> s</span>
+        <span>WPM: <b id="live-wpm">—</b></span>
+        <span>Accuracy: <b id="live-acc">—</b></span>
       </div>
-      <a href="/guides/guide.html" class="whitespace-nowrap px-5 py-3 bg-indigo-600 hover:bg-indigo-700 text-white font-bold rounded-xl shadow-md transition flex items-center gap-2 text-xs shrink-0">
-        Read In-Depth Guide &rarr;
-      </a>
-    </div>
+      <div class="actions">
+        <button type="button" class="btn" id="btn-restart">↺ Restart</button>
+      </div>
+    </section>
 
-    <details class="group border border-slate-200 rounded-xl p-4 transition">
-                    <summary class="font-bold text-slate-800 text-sm cursor-pointer flex justify-between items-center select-none">
-                        <span>How accurate are these calculations?</span>
-                        <span class="text-blue-600 font-bold group-open:rotate-180 transition-transform">▼</span>
-                    </summary>
-                    <p class="mt-3 text-xs sm:text-sm text-slate-600 leading-relaxed">
-                        Calculations use 2026 statutory formulas and verified standard economic models. While highly accurate for benchmarking, always consult a certified professional for individual legal or financial filings.
-                    </p>
-                </details>
-                <details class="group border border-slate-200 rounded-xl p-4 transition">
-                    <summary class="font-bold text-slate-800 text-sm cursor-pointer flex justify-between items-center select-none">
-                        <span>Is my personal or financial data stored?</span>
-                        <span class="text-blue-600 font-bold group-open:rotate-180 transition-transform">▼</span>
-                    </summary>
-                    <p class="mt-3 text-xs sm:text-sm text-slate-600 leading-relaxed">
-                        No. 100% of the computations occur locally in your browser's JavaScript engine. Zero personal or financial data is transmitted to or saved on external servers.
-                    </p>
-                </details>
-                <details class="group border border-slate-200 rounded-xl p-4 transition">
-                    <summary class="font-bold text-slate-800 text-sm cursor-pointer flex justify-between items-center select-none">
-                        <span>Can I export or share my calculation results?</span>
-                        <span class="text-blue-600 font-bold group-open:rotate-180 transition-transform">▼</span>
-                    </summary>
-                    <p class="mt-3 text-xs sm:text-sm text-slate-600 leading-relaxed">
-                        Yes! Click the "Copy Results" button to copy a formatted summary with a link directly to your clipboard for sharing via Slack, email, or messaging apps.
-                    </p>
-                </details>
-            </div>
-        </section>
-    </main>
+    <section class="card result" id="res" aria-labelledby="out-h">
+      <h2 id="out-h">2. Your result</h2>
+      <p class="hint" id="r-lead">Your result appears here when the time runs out.</p>
+      <div class="kpis" aria-live="polite">
+        <div class="kpi big"><div class="v" id="r-wpm">—</div><div class="k">words per minute (correct characters ÷ 5)</div></div>
+        <div class="kpi"><div class="v" id="r-acc">—</div><div class="k">accuracy (keystrokes)</div></div>
+        <div class="kpi"><div class="v" id="r-raw">—</div><div class="k">raw WPM (all characters)</div></div>
+        <div class="kpi"><div class="v" id="r-chars">—</div><div class="k">correct / typed characters</div></div>
+        <div class="kpi"><div class="v" id="r-err">—</div><div class="k">uncorrected errors</div></div>
+      </div>
+      <p class="hint" id="best"></p>
+      <div class="actions">
+        <button type="button" class="btn" id="btn-copy">📋 Copy</button>
+        <button type="button" class="btn" id="btn-share">📤 Share</button>
+        <button type="button" class="btn sm" id="btn-clear">Clear best scores</button>
+      </div>
+    </section>
+  </div>
 
-    <!-- Floating Toast Notification -->
-    <div id="toastNotification" class="fixed bottom-6 left-1/2 transform -translate-x-1/2 bg-slate-900 text-white px-5 py-2.5 rounded-full text-xs font-bold shadow-2xl opacity-0 pointer-events-none transition-opacity duration-200 z-50">
-        Copied to clipboard!
-    </div>
+<!-- ADSENSE START: mid (right after the result card) -->
+<div class="ad-box ad-mid">
+  <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2228289204702106" data-ad-slot="1186914926" data-ad-format="auto" data-full-width-responsive="true"></ins>
+  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+</div>
+<!-- ADSENSE END: mid -->
 
-    <!-- Modern Trust Footer -->
-    <footer class="bg-white border-t border-slate-200 py-8 text-center text-xs text-slate-500 mt-12">
-        <div class="max-w-6xl mx-auto px-4 space-y-3">
-            <div class="flex flex-wrap justify-center gap-x-6 gap-y-2 font-semibold text-slate-600">
-                <a href="/terms.html" class="hover:text-blue-600 transition">Terms of Service</a>
-                <span class="text-slate-300">|</span>
-                <a href="/privacy.html" class="hover:text-blue-600 transition">Privacy Policy</a>
-                <span class="text-slate-300">|</span>
-                <a href="/disclaimer.html" class="hover:text-blue-600 transition">Disclaimer</a>
-            </div>
-            <p class="max-w-xl mx-auto text-slate-400">
-                This tool is provided for educational and estimation purposes only. All calculations run client-side.
-            </p>
-            <p>&copy; 2026 60-Second Typing Speed Test. All rights reserved.</p>
-        </div>
-    </footer>
+  <section class="card" aria-labelledby="how-h">
+    <h2 id="how-h">🧮 How the score works</h2>
+    <ul>
+      <li><strong>Words per minute:</strong> typing tests count one word as 5 characters, including spaces and punctuation. WPM = characters that match the text ÷ 5 ÷ minutes. Example: 300 correct characters in 1 minute = 60 WPM; in 30 seconds the same 300 characters would be 120 WPM.</li>
+      <li><strong>Raw WPM:</strong> every character you typed ÷ 5 ÷ minutes, right or wrong. The gap between raw WPM and WPM shows how much speed mistakes cost you.</li>
+      <li><strong>Accuracy:</strong> correct keystrokes ÷ all keystrokes. A wrong key still counts after you fix it with Backspace. Accuracy is rounded down, so 100% means no wrong keys at all.</li>
+      <li><strong>Uncorrected errors:</strong> wrong characters still in place when the test ends.</li>
+      <li><strong>Timing:</strong> the clock starts with your first key and stops at the chosen length, or earlier if you type the whole text. WPM and raw WPM are rounded to whole numbers.</li>
+    </ul>
+    <p>The practice texts were written for this page. Each round starts from a different paragraph and keeps going, so there is always enough text for fast typists.</p>
+  </section>
 
-    <!-- Logic Script -->
-    <script>
-        
-        function calculate() {
-            const prim = parseFloat(document.getElementById('primaryVal').value.replace(/,/g, '')) || 0;
-            const sec = parseFloat(document.getElementById('secVal').value) || 1;
-            const cat = document.getElementById('calcCat').value;
-            
-            let mult = 1.0;
-            if (cat === 'conservative') mult = 0.90;
-            if (cat === 'growth') mult = 1.15;
-            
-            const total = prim * sec * mult;
-            const monthly = total / 12;
-            const rate = ((total / (prim || 1)) * 10).toFixed(1);
-            
-            document.getElementById('resPrimary').textContent = '$' + Math.round(total).toLocaleString('en-US');
-            document.getElementById('resMonthly').textContent = '$' + Math.round(monthly).toLocaleString('en-US');
-            document.getElementById('resBenchmark').textContent = rate + '%';
-            
-            document.getElementById('resultCard').classList.remove('hidden');
-        }
-        
+  <section class="card" id="faq" aria-labelledby="faq-h">
+    <h2 id="faq-h">❓ Frequently asked questions</h2>
+    <div class="faq-item"><h3>How is WPM calculated?</h3><p>Typing tests count one word as five characters, including spaces and punctuation. This test divides the number of characters you typed correctly by 5, then by the minutes of the test. Raw WPM uses every character you typed, right or wrong. For example, 300 correct characters in 60 seconds is 60 WPM.</p></div>
+    <div class="faq-item"><h3>How is accuracy calculated?</h3><p>Accuracy is the share of your keystrokes that matched the text when you typed them. A mistake still counts against accuracy after you fix it with Backspace, because it was a wrong keystroke. Uncorrected errors are the wrong characters still left when the test ends.</p></div>
+    <div class="faq-item"><h3>Why can't I paste text?</h3><p>Pasting is turned off during the test so the score shows your own typing. The Enter key does not add a new line either, because the practice text is one long paragraph.</p></div>
+    <div class="faq-item"><h3>Which test length should I choose?</h3><p>Short tests reward a quick burst of speed, while longer tests show how well you keep your pace. Take the same length a few times and compare; your best score for each length is kept in this browser.</p></div>
+    <div class="faq-item"><h3>Is my typing saved or sent anywhere?</h3><p>No. What you type stays on this page and is never sent to us. Only your best score and its date for each test length are saved in this browser, and you can clear them at any time.</p></div>
+  </section>
 
-        function copyResults() {
-            const resCard = document.getElementById('resultCard');
-            const lines = [];
-            lines.push("60-Second Typing Speed Test - Calculation Summary");
-            lines.push("=============================");
-            resCard.querySelectorAll('.flex.justify-between').forEach(el => {
-                const k = el.querySelector('span:first-child')?.innerText || '';
-                const v = el.querySelector('span:last-child')?.innerText || '';
-                if (k && v) lines.push(k + ' ' + v);
-            });
-            lines.push("-----------------------------");
-            lines.push("👉 Try it here: https://us-wpm-typing-speed-test.enjoy-onepage.com/");
-            
-            const textToCopy = lines.join('\n');
-            if (navigator.clipboard) {
-                navigator.clipboard.writeText(textToCopy).then(() => showToast());
-            } else {
-                const ta = document.createElement('textarea');
-                ta.value = textToCopy;
-                document.body.appendChild(ta);
-                ta.select();
-                document.execCommand('copy');
-                document.body.removeChild(ta);
-                showToast();
-            }
-        }
+  <section class="card notice" aria-labelledby="note-h">
+    <h2 id="note-h">⚠️ Please note</h2>
+    <p>Scores depend on your keyboard, device and the text, so compare results taken the same way. This is a practice tool; employers and schools may use their own tests and scoring rules.</p>
+  </section>
+</main>
 
-        function showToast() {
-            const t = document.getElementById('toastNotification');
-            t.classList.remove('opacity-0', 'pointer-events-none');
-            setTimeout(() => {
-                t.classList.add('opacity-0', 'pointer-events-none');
-            }, 2200);
-        }
+<!-- ADSENSE START: bottom -->
+<div class="ad-box ad-bottom">
+  <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2228289204702106" data-ad-slot="3416334507" data-ad-format="auto" data-full-width-responsive="true"></ins>
+  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+</div>
+<!-- ADSENSE END: bottom -->
 
-        function resetForm() {
-            document.getElementById('resultCard').classList.add('hidden');
-            document.getElementById('placeholderCard').classList.remove('hidden');
-        }
+<footer class="footer">
+  <p>A free typing speed test. What you type is not saved or sent to us.</p>
+  <p><a href="/disclaimer.html">Disclaimer</a> | <a href="/privacy.html">Privacy Policy</a> | <a href="/terms.html">Terms of Service</a></p>
+</footer>
 
-        // Auto calculate on load
-        window.addEventListener('DOMContentLoaded', () => {
-            calculate();
-            document.getElementById('placeholderCard').classList.add('hidden');
-        });
-    </script>
+<div id="global-ux-toast" class="toast" role="status" aria-live="polite"></div>
+
+<!-- LOGIC START -->
+<script>
+(function () {
+  'use strict';
+  var SITE = 'https://us-wpm-typing-speed-test.enjoy-onepage.com';
+  var TOOL_NAME = 'Typing Speed Test (WPM)';
+  var BEST_KEY = 'us-wpm-best-v1';
+  var DURS = [30, 60, 120];
+  /* Practice paragraphs written for this page (plain ASCII, no contractions). */
+  var P = [
+    'The morning light came slowly over the hills, and the town began to wake. A baker opened his door and set out fresh bread, while a few early walkers stopped to talk about the weather and the week ahead.',
+    'Good habits are built one small step at a time. Put your shoes by the door if you want to walk each day, and keep a glass of water on your desk if you want to drink more of it. Make the easy choice the obvious one.',
+    'A small garden can feed a family for much of the summer. Tomatoes, beans and squash grow well in most places with full sun, and a few herbs by the kitchen window add flavor to almost every meal you make.',
+    'When you plan a road trip, leave room in the schedule for the unexpected. The best stops are often the ones you did not plan, like a quiet lake, a local diner or a view that makes you pull over and stare.',
+    'Learning to type well is mostly about rhythm. Keep your fingers on the home row, look at the screen instead of the keys, and let accuracy come first. Speed follows once your hands know where every letter lives.',
+    'The library was busy on Saturday afternoon. Children sat on the carpet with picture books, students worked at the long tables, and an older man read the newspaper by the window as if he had all the time in the world.',
+    'Cooking at home does not need to be complicated. A pot of rice, a pan of vegetables and a simple sauce can become a dozen different dinners, depending on the spices you choose and what is left in the fridge.',
+    'Every good team needs clear goals and honest feedback. People work best when they know what success looks like, when they can ask questions without fear, and when small wins are noticed and shared.',
+    'Rain tapped on the roof all night, and by morning the creek behind the house had doubled in size. The dog watched the water from the porch, clearly unsure whether this was a problem or an adventure.',
+    'Saving money often starts with a simple list. Write down what you spend for one month, circle the things that did not make you happier, and decide which ones you can skip next month without missing them.',
+    'The old bridge has stood over the river for more than a century. Its stones are worn smooth by weather and time, yet every day it carries cyclists, delivery trucks and families on their way to the park.',
+    'A short walk after lunch can clear your head better than another cup of coffee. Step outside, notice the sky and the sounds around you, and come back to your work with fresh eyes and a calmer mind.'
+  ];
+  var S = { dur: 60, p: 0, text: '', typed: '', started: false, ended: false, t0: 0, elapsed: 0, keys: 0, keysOk: 0, timer: null, result: null };
+  var spans = [], toastTimer = null;
+  function $(id) { return document.getElementById(id); }
+  function on(id, ev, fn) { var el = $(id); if (el) el.addEventListener(ev, fn); }
+  function now() { return performance.now(); }
+
+  /* ---------- scoring ---------- */
+  function score(elapsedMs) {
+    var correct = 0, t = S.typed;
+    for (var i = 0; i < t.length; i++) if (t.charAt(i) === S.text.charAt(i)) correct++;
+    var min = elapsedMs / 60000;
+    return {
+      correct: correct, typed: t.length, errors: t.length - correct, ms: elapsedMs,
+      wpm: min > 0 ? correct / 5 / min : 0, raw: min > 0 ? t.length / 5 / min : 0,
+      acc: S.keys ? S.keysOk / S.keys * 100 : 100
+    };
+  }
+  function accStr(a) { return Math.floor(a) + '%'; }
+
+  /* ---------- text ---------- */
+  function buildText(p) { var out = []; for (var i = 0; i < P.length; i++) out.push(P[(p + i) % P.length]); return out.join(' '); }
+  function renderText() {
+    var box = $('text'), frag = document.createDocumentFragment();
+    box.textContent = '';
+    for (var i = 0; i < S.text.length; i++) { var sp = document.createElement('span'); sp.textContent = S.text.charAt(i); frag.appendChild(sp); }
+    box.appendChild(frag);
+    spans = box.children;
+    box.scrollTop = 0;
+    paint(0, S.text.length);
+  }
+  function paint(from, to) {
+    var t = S.typed;
+    for (var i = Math.max(0, from); i < Math.min(to, spans.length); i++) {
+      spans[i].className = i < t.length ? (t.charAt(i) === S.text.charAt(i) ? 'ok' : 'bad') : (i === t.length ? 'cur' : '');
+    }
+  }
+  function follow() {
+    var box = $('text'), c = spans[Math.min(S.typed.length, spans.length - 1)];
+    if (!c) return;
+    var top = c.offsetTop;
+    if (top > box.scrollTop + box.clientHeight - 40 || top < box.scrollTop) box.scrollTop = Math.max(0, top - 20);
+  }
+
+  /* ---------- test flow ---------- */
+  function reset(p) {
+    clearInterval(S.timer);
+    S.p = p; S.text = buildText(p); S.typed = ''; S.started = false; S.ended = false; S.t0 = 0; S.elapsed = 0;
+    S.keys = 0; S.keysOk = 0; S.timer = null; S.result = null;
+    var ta = $('typing');
+    ta.value = ''; ta.readOnly = false; ta.maxLength = S.text.length;
+    renderText();
+    $('time').textContent = String(S.dur);
+    $('live-wpm').textContent = '—'; $('live-acc').textContent = '—';
+    $('r-lead').textContent = 'Your result appears here when the time runs out.';
+    ['r-wpm', 'r-acc', 'r-raw', 'r-chars', 'r-err'].forEach(function (id) { $(id).textContent = '—'; });
+    renderBest(null);
+  }
+  function live() {
+    var el = now() - S.t0, left = Math.max(0, S.dur * 1000 - el);
+    $('time').textContent = String(Math.ceil(left / 1000));
+    if (el >= 1000) { var s = score(el); $('live-wpm').textContent = String(Math.round(s.wpm)); $('live-acc').textContent = accStr(s.acc); }
+  }
+  function tick() {
+    if (!S.started || S.ended) return;
+    var el = now() - S.t0;
+    if (el >= S.dur * 1000) finish(S.dur * 1000); else live();
+  }
+  function onInput() {
+    var ta = $('typing');
+    if (S.ended) { ta.value = S.typed; return; }
+    var v = ta.value.replace(/\r?\n/g, '');
+    if (v !== ta.value) ta.value = v;
+    if (!S.started && v.length) { S.started = true; S.t0 = now(); S.timer = setInterval(tick, 100); }
+    var old = S.typed, p = 0, n = Math.min(old.length, v.length);
+    while (p < n && old.charCodeAt(p) === v.charCodeAt(p)) p++;
+    for (var i = p; i < v.length; i++) { S.keys++; if (v.charAt(i) === S.text.charAt(i)) S.keysOk++; }
+    S.typed = v;
+    paint(p, Math.max(old.length, v.length) + 1);
+    follow();
+    if (v.length >= S.text.length) finish(Math.min(now() - S.t0, S.dur * 1000));
+    else if (S.started) live();
+  }
+  function finish(ms) {
+    clearInterval(S.timer); S.timer = null;
+    S.ended = true; S.elapsed = ms;
+    var ta = $('typing'); ta.readOnly = true; ta.blur();
+    var r = score(ms);
+    S.result = r;
+    $('time').textContent = '0';
+    $('live-wpm').textContent = String(Math.round(r.wpm)); $('live-acc').textContent = accStr(r.acc);
+    var secs = Math.round(ms / 100) / 10;
+    $('r-lead').textContent = (ms < S.dur * 1000 ? 'You typed the whole text in ' + secs + ' s.' : 'Time is up: ' + S.dur + '-second test.') + ' Press Restart to try again.';
+    $('r-wpm').textContent = String(Math.round(r.wpm));
+    $('r-acc').textContent = accStr(r.acc);
+    $('r-raw').textContent = String(Math.round(r.raw));
+    $('r-chars').textContent = r.correct + ' / ' + r.typed;
+    $('r-err').textContent = String(r.errors);
+    renderBest(saveBest(r));
+  }
+
+  /* ---------- personal best (this browser only) ---------- */
+  function readBest() {
+    try {
+      var o = JSON.parse(localStorage.getItem(BEST_KEY) || '{}'), out = {};
+      if (!o || typeof o !== 'object') return {};
+      DURS.forEach(function (d) {
+        var b = o[String(d)];
+        if (b && typeof b.w === 'number' && isFinite(b.w) && b.w >= 0 && b.w < 1000 && typeof b.a === 'number' && b.a >= 0 && b.a <= 100 &&
+            typeof b.d === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(b.d)) out[String(d)] = { w: b.w, a: b.a, d: b.d };
+      });
+      return out;
+    } catch (e) { return {}; }
+  }
+  function dayKey() { var d = new Date(); return d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0'); }
+  function niceDay(k) { var p = k.split('-'); return new Date(+p[0], +p[1] - 1, +p[2]).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' }); }
+  function saveBest(r) {
+    var all = readBest(), cur = all[String(S.dur)], w = Math.round(r.wpm), a = Math.floor(r.acc);
+    if (cur && cur.w >= w) return { isNew: false, stored: true };
+    all[String(S.dur)] = { w: w, a: a, d: dayKey() };
+    try { localStorage.setItem(BEST_KEY, JSON.stringify(all)); return { isNew: true, stored: true }; }
+    catch (e) { return { isNew: true, stored: false }; }
+  }
+  function renderBest(info) {
+    var b = readBest()[String(S.dur)], label = S.dur === 120 ? '2-minute' : S.dur + '-second';
+    var t = b ? 'Your best ' + label + ' score in this browser: ' + b.w + ' WPM at ' + b.a + '% accuracy (' + niceDay(b.d) + ').' : 'No ' + label + ' best score saved in this browser yet.';
+    if (info && info.isNew && info.stored) t = 'New personal best! ' + t;
+    if (info && !info.stored) t = 'Your browser blocked saving, so this best score will not be kept.';
+    $('best').textContent = t;
+  }
+
+  /* ---------- sharing ---------- */
+  function query() { return '?t=' + S.dur + '&p=' + S.p; }
+  function link() { return SITE + '/' + query(); }
+  function updateUrl() { try { history.replaceState(null, '', location.pathname + query()); } catch (e) { /* ignore */ } }
+  function summary() {
+    var r = S.result; if (!r) return '';
+    var len = S.dur === 120 ? '2 minutes' : S.dur + ' seconds';
+    return '⌨️ Typing test, ' + len + ': ' + Math.round(r.wpm) + ' WPM with ' + accStr(r.acc) + ' accuracy (raw ' + Math.round(r.raw) + ' WPM).\n👉 ' + TOOL_NAME + ': ' + link();
+  }
+  function showToastNotification(msg) {
+    var t = $('global-ux-toast'); if (!t) return;
+    t.textContent = msg; t.classList.add('show');
+    clearTimeout(toastTimer); toastTimer = setTimeout(function () { t.classList.remove('show'); }, 2200);
+  }
+  function fallbackCopy(text) {
+    var ta = document.createElement('textarea'); ta.value = text; ta.setAttribute('readonly', '');
+    ta.style.position = 'fixed'; ta.style.opacity = '0'; document.body.appendChild(ta); ta.select();
+    var ok = false; try { ok = document.execCommand('copy'); } catch (e) { ok = false; }
+    document.body.removeChild(ta);
+    showToastNotification(ok ? 'Copied! Paste it anywhere to share.' : 'Could not copy. Please select the text and copy it yourself.');
+  }
+  function copyText(text) {
+    if (navigator.clipboard && window.isSecureContext) {
+      navigator.clipboard.writeText(text).then(function () { showToastNotification('Copied! Paste it anywhere to share.'); }, function () { fallbackCopy(text); });
+    } else { fallbackCopy(text); }
+  }
+
+  /* ---------- events ---------- */
+  on('typing', 'input', onInput);
+  on('typing', 'keydown', function (e) { if (e.key === 'Enter') e.preventDefault(); });
+  ['paste', 'drop'].forEach(function (ev) {
+    on('typing', ev, function (e) { e.preventDefault(); showToastNotification('Pasting is turned off so the test shows your own typing.'); });
+  });
+  on('test', 'change', function (e) {
+    var t = e.target;
+    if (t && t.name === 'dur') { var d = Number(t.value); if (DURS.indexOf(d) >= 0) { S.dur = d; reset(S.p); updateUrl(); } }
+  });
+  on('btn-new', 'click', function () {
+    var np = Math.floor(Math.random() * (P.length - 1));
+    if (np >= S.p) np++;
+    reset(np); updateUrl(); $('typing').focus();
+  });
+  on('btn-restart', 'click', function () { reset(S.p); $('typing').focus(); });
+  on('btn-copy', 'click', function () { var t = summary(); if (t) copyText(t); else showToastNotification('Finish a test first.'); });
+  on('btn-share', 'click', function () {
+    var text = summary(); if (!text) { showToastNotification('Finish a test first.'); return; }
+    if (navigator.share) { navigator.share({ title: TOOL_NAME, text: text, url: link() }).catch(function (e) { if (!e || e.name !== 'AbortError') copyText(text); }); }
+    else { copyText(text); }
+  });
+  on('btn-clear', 'click', function () {
+    try { localStorage.removeItem(BEST_KEY); } catch (e) { /* ignore */ }
+    renderBest(null);
+    showToastNotification('Best scores cleared from this browser.');
+  });
+
+  /* ---------- start: link values (?t=30|60|120&p=0-11) ---------- */
+  (function init() {
+    var q; try { q = new URLSearchParams(location.search); } catch (e) { q = null; }
+    var p = 0;
+    if (q) {
+      var t = q.get('t'), pp = q.get('p');
+      if (t !== null && /^\d+$/.test(t) && DURS.indexOf(Number(t)) >= 0) S.dur = Number(t);
+      if (pp !== null && /^\d+$/.test(pp) && Number(pp) < P.length) p = Number(pp);
+    }
+    var radios = document.querySelectorAll('input[name="dur"]');
+    for (var i = 0; i < radios.length; i++) radios[i].checked = Number(radios[i].value) === S.dur;
+    reset(p);
+  })();
+})();
+</script>
+<!-- LOGIC END -->
 </body>
 </html>
